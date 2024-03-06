@@ -48,8 +48,8 @@ namespace SuperModels
                 return (ellenfel.MekkoraAzEreje() < this.MekkoraAzEreje() && ellenfel.VanEGyengesege);
             }
             else {
-                return false;
-                
+                var bati = (Batman)hos;
+                return this.MekkoraAzEreje() >   bati.MekkoraAzEreje()*2;                
             }
                    
         }

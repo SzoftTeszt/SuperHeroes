@@ -20,7 +20,7 @@ namespace SuperModels
             this.Szuperero += 100;
         }
 
-        void IMilliardos.KutyutKeszit()
+        public void KutyutKeszit()
         {
             this.Szuperero += new Random().NextDouble() * 10;
         }
